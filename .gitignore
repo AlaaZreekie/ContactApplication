@@ -1,69 +1,60 @@
-﻿/BackEnd/ContactAppBackend/.vs/ContactAppBackend
-/BackEnd/ContactAppBackend/bin/Debug/net8.0
-/BackEnd/ContactAppBackend/obj
-
-/FrontEnd/ContactAppBackend/.vscode
-
-
-# See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
-
-# Compiled output
-/FrontEnd/ContactAppBackend/dist
-/FrontEnd/ContactAppBackend/tmp
-/FrontEnd/ContactAppBackend/out-tsc
-/FrontEnd/ContactAppBackend/bazel-out
-/FrontEnd/ContactAppBackend/node_modules
-
-
-# Node
-/FrontEnd/ContactAppBackend/node_modules
-/FrontEnd/ContactAppBackend/npm-debug.log
-/FrontEnd/ContactAppBackend/yarn-error.log
-
-# IDEs and editors
-/FrontEnd/ContactAppBackend/.idea/
-/FrontEnd/ContactAppBackend/.project
-/FrontEnd/ContactAppBackend/.classpath
-/FrontEnd/ContactAppBackend/.c9/
-/FrontEnd/ContactAppBackend/*.launch
-/FrontEnd/ContactAppBackend/.settings/
-/FrontEnd/ContactAppBackend/*.sublime-workspace
-
-# Visual Studio Code
-/FrontEnd/ContactAppBackend/.vscode/*
-/FrontEnd/ContactAppBackend/.vscode
-/FrontEnd/ContactAppBackend/!.vscode/settings.json
-/FrontEnd/ContactAppBackend/!.vscode/tasks.json
-/FrontEnd/ContactAppBackend/!.vscode/launch.json
-/FrontEnd/ContactAppBackend/!.vscode/extensions.json
-/FrontEnd/ContactAppBackend/.history/*
-
-# Miscellaneous
-/FrontEnd/ContactAppBackend/.angular/cache
-/FrontEnd/ContactAppBackend/.sass-cache/
-/FrontEnd/ContactAppBackend/connect.lock
-/FrontEnd/ContactAppBackend/coverage
-/FrontEnd/ContactAppBackend/libpeerconnection.log
-/FrontEnd/ContactAppBackend/testem.log
-/FrontEnd/ContactAppBackend/typings
-
-# System files
-/FrontEnd/ContactAppBackend/.DS_Store
-/FrontEnd/ContactAppBackend/Thumbs.db
+﻿############################################
+# Backend (.NET) - ContactAppBackend
+############################################
+/BackEnd/ContactAppBackend/.vs/
+/BackEnd/ContactAppBackend/bin/
+/BackEnd/ContactAppBackend/obj/
 /BackEnd/ContactAppBackend/.vs/ProjectEvaluation
-/.vscode
-/FrontEnd/ContactAppBackend/.vscode
+/BackEnd/ContactAppBackend/ContactAppBackend.csproj.user
 
+############################################
+# Frontend (Angular) - ContactAppFrontend
+############################################
+/FrontEnd/ContactAppFrontend/dist
+/FrontEnd/ContactAppFrontend/tmp
+/FrontEnd/ContactAppFrontend/out-tsc
+/FrontEnd/ContactAppFrontend/bazel-out
+/FrontEnd/ContactAppFrontend/node_modules
+/FrontEnd/ContactAppFrontend/npm-debug.log
+/FrontEnd/ContactAppFrontend/yarn-error.log
 
-# See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+# IDEs and editors (scoped to frontend)
+/FrontEnd/ContactAppFrontend/.idea/
+/FrontEnd/ContactAppFrontend/.project
+/FrontEnd/ContactAppFrontend/.classpath
+/FrontEnd/ContactAppFrontend/.c9/
+/FrontEnd/ContactAppFrontend/*.launch
+/FrontEnd/ContactAppFrontend/.settings/
+/FrontEnd/ContactAppFrontend/*.sublime-workspace
 
-# Compiled output
+# Visual Studio Code (scoped to frontend)
+/FrontEnd/ContactAppFrontend/.vscode/*
+!/FrontEnd/ContactAppFrontend/.vscode/settings.json
+!/FrontEnd/ContactAppFrontend/.vscode/tasks.json
+!/FrontEnd/ContactAppFrontend/.vscode/launch.json
+!/FrontEnd/ContactAppFrontend/.vscode/extensions.json
+/FrontEnd/ContactAppFrontend/.history/*
+
+# Miscellaneous (scoped to frontend)
+/FrontEnd/ContactAppFrontend/.angular/cache
+/FrontEnd/ContactAppFrontend/.sass-cache/
+/FrontEnd/ContactAppFrontend/connect.lock
+/FrontEnd/ContactAppFrontend/coverage
+/FrontEnd/ContactAppFrontend/libpeerconnection.log
+/FrontEnd/ContactAppFrontend/testem.log
+/FrontEnd/ContactAppFrontend/typings
+
+# System files (scoped to frontend)
+/FrontEnd/ContactAppFrontend/.DS_Store
+/FrontEnd/ContactAppFrontend/Thumbs.db
+
+############################################
+# Root-level general ignores
+############################################
 /dist
 /tmp
 /out-tsc
 /bazel-out
-
-# Node
 /node_modules
 npm-debug.log
 yarn-error.log
