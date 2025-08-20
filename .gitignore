@@ -12,6 +12,8 @@
 /FrontEnd/ContactAppBackend/tmp
 /FrontEnd/ContactAppBackend/out-tsc
 /FrontEnd/ContactAppBackend/bazel-out
+/FrontEnd/ContactAppBackend/node_modules
+
 
 # Node
 /FrontEnd/ContactAppBackend/node_modules
