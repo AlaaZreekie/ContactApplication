@@ -29,9 +29,6 @@
 
 # Node dependencies
 /FrontEnd/ContactAppFrontend/node_modules/
-/FrontEnd/ContactAppFrontend/node_modules/*
-/FrontEnd/ContactAppFrontend/node_modules
-
 /FrontEnd/ContactAppFrontend/npm-debug.log
 /FrontEnd/ContactAppFrontend/yarn-error.log
 
@@ -46,7 +43,6 @@
 
 # Visual Studio Code (scoped to frontend, allows sharing some settings)
 /FrontEnd/ContactAppFrontend/.vscode/*
-/FrontEnd/ContactAppFrontend/node_modules
 !/FrontEnd/ContactAppFrontend/.vscode/settings.json
 !/FrontEnd/ContactAppFrontend/.vscode/tasks.json
 !/FrontEnd/ContactAppFrontend/.vscode/launch.json
@@ -67,7 +63,6 @@
 
 ############################################
 # General Root-level Ignores
-# (For any files created at the very top level)
 ############################################
 # System files
 .DS_Store
