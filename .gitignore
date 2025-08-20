@@ -1,3 +1,51 @@
 ﻿/BackEnd/ContactAppBackend/.vs/ContactAppBackend
 /BackEnd/ContactAppBackend/bin/Debug/net8.0
 /BackEnd/ContactAppBackend/obj
+
+/FrontEnd/ContactAppBackend/.vscode
+
+
+# See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+
+# Compiled output
+/FrontEnd/ContactAppBackend/dist
+/FrontEnd/ContactAppBackend/tmp
+/FrontEnd/ContactAppBackend/out-tsc
+/FrontEnd/ContactAppBackend/bazel-out
+
+# Node
+/FrontEnd/ContactAppBackend/node_modules
+/FrontEnd/ContactAppBackend/npm-debug.log
+/FrontEnd/ContactAppBackend/yarn-error.log
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Visual Studio Code
+.vscode/*
+/FrontEnd/ContactAppBackend/.vscode
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# Miscellaneous
+/.angular/cache
+.sass-cache/
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
+
+# System files
+.DS_Store
+Thumbs.db
+/BackEnd/ContactAppBackend/.vs/ProjectEvaluation
